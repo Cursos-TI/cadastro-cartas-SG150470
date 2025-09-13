@@ -6,8 +6,16 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-
+  char cidade[50] = Rio de Janeiro;
+  char[4] = 'A01';
+  int População = 12325000;
+  float Area = 1521.11;
+  float PIB = 699.28;
+  int ponto turistico = 50;
   // Área para entrada de dados
+  printf("
+
+  
 
   // Área para exibição dos dados da cidade
 
