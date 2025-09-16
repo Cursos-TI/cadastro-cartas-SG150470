@@ -27,7 +27,7 @@ int main() {
   scanf("%f"\n , &PIB);
 
   printf("Digite o ponto Turistico: \n");
-  scanf("%d"\n , &Turistico);  
+  scanf("%d"\n , &pontoTuristico);  
   
 
 
