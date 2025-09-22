@@ -6,16 +6,17 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-  
-  char cidade[50] = Rio de Janeiro;
-  char codigo [4] = 'A01';
+  int Carta1;
+  char Estado[20];
+  char cidade[50] = "São Paulo";
+  char codigo [4] = "A01";
   int População = 12325000;
   float Area = 1521.11;
   float PIB = 699.28;
   int pontoTuristico = 50;
   // Área para entrada de dados
   printf("Digite o codigo: ");
-  scanf("%c" , &codigo);
+  scanf("%s" , &codigo);
 
   printf("Digite a populaçao: \n");
   scanf("%f\n" , &Populacao);
