@@ -31,29 +31,29 @@ int main() {
   printg("Digite o codigo:  ");
   scanf)"%s" , &codigo2);
 
-  printf("Digite a populaçao: \n");
+  printf("Digite a populaçao:  ");
   scanf("%f\n" , &Populacao1);
 
   printf"Digite a populaca: ");
   scanf("%d" , &populacao2);  
 
-  printf("Digite a Area: \n");
+  printf("Digite a Area: ");
   scanf("%f"\n ,&Area1);
 
-  printf("Digite a Area: \n");
+  printf("Digite a Area: ");
   scanf("%f" , &Area2);
 
 
-  printf("Digite o PIB: \n");
+  printf("Digite o PIB: ");
   scanf("%f" , &PIB1);
 
-  printf("Digite o PIB: \n");
+  printf("Digite o PIB: ");
   scanf("%f" , &PIB2);
 
-  printf("Digite o ponto Turistico: \n");
+  printf("Digite o ponto Turistico: ");
   scanf("%d"\n , &pontoTuristico1);  
   
-  printf("Digite o ponto Turistico: \n");
+  printf("Digite o ponto Turistico: 						");
   scanf("%d" , &pontoTuristico2);
 
   // Área para exibição dos dados da cidade
