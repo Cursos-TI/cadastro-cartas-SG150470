@@ -58,12 +58,18 @@ int main() {
 
   // Área para exibição dos dados da cidade
 
-  printf("A cidade é: %s\n" , cidade);
-  printf("O codigo é: %s\n" , codigo);
-  printf("A Populacao é: %f\n" , Populacao);
-  printf("A Area é: %f\n" , Area);
-  printf("O PIB é : %f\n" , PIB);
-  printf("O ponto Turistico é: %d\n", pontoTuristico);
+  printf("A cidade é: %s\n" , cidade1);
+  printf("A cidade é : %s\n , cidade2);
+  printf("O codigo é : %s\n , codigo1) ; 
+  printf("O codigo é: %s\n" , codigo2);
+  printf("A populacao é: %s\n , populacao1);
+  printf("A populacao é: %f\n" , populacao2);
+  printf("A Area é: %f\n" , Area1);
+  printf("A Area é: %f\n" , Area2);
+  printf("O PIB é : %f\n" , PIB1);
+  printf("O PIB é :%f\n\" , PIB2);
+  printf("O ponto Turistico1 é: %d\n", pontoTuristico);
+  printf("O ponto Turistico2 é: %d\n" , pontoTuristico);
 
   
 
