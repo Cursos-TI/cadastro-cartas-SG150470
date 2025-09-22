@@ -59,7 +59,7 @@ int main() {
   // Área para exibição dos dados da cidade
 
   printf("A cidade é: %s\n" , cidade);
-  printf("O codigo é: %c\n" , codigo);
+  printf("O codigo é: %s\n" , codigo);
   printf("A Populacao é: %f\n" , Populacao);
   printf("A Area é: %f\n" , Area);
   printf("O PIB é : %f\n" , PIB);
