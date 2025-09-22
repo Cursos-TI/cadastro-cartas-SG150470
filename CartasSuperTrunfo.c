@@ -35,7 +35,7 @@ int main() {
   scanf("%f\n" , &Populacao1);
 
   printf"Digite a populaca: ");
-  scanf("%d" , &populacao);  
+  scanf("%d" , &populacao2);  
 
   printf("Digite a Area: \n");
   scanf("%f"\n ,&Area1);
@@ -48,13 +48,13 @@ int main() {
   scanf("%f" , &PIB1);
 
   printf("Digite o PIB: \n");
-  scanf("%f" , &PIB);
+  scanf("%f" , &PIB2);
 
   printf("Digite o ponto Turistico: \n");
   scanf("%d"\n , &pontoTuristico1);  
   
   printf("Digite o ponto Turistico: \n");
-  scanf("%d" , &pontoTuristico);
+  scanf("%d" , &pontoTuristico2);
 
   // Área para exibição dos dados da cidade
 
