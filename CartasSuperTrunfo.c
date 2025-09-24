@@ -68,8 +68,8 @@ int main() {
   printf("A Area é: %f\n" , Area2);
   printf("O PIB é : %f\n" , PIB1);
   printf("O PIB é :%f\n\" , PIB2);
-  printf("O ponto Turistico1 é: %d\n", pontoTuristico);
-  printf("O ponto Turistico2 é: %d\n" , pontoTuristico);
+  printf("O ponto Turistico1 é: %d\n", pontoTuristico1);
+  printf("O ponto Turistico2 é: %d\n" , pontoTuristico2);
 
   
 
