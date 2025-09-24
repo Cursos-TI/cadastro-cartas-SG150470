@@ -31,6 +31,12 @@ int main() {
   printg("Digite o codigo:  ");
   scanf)"%s" , &codigo2);
 
+  printf("Digite o Estado: \n");
+  scanf("%s" , &Estado1);
+
+  printf("Digite o Estado: \n");
+  scanf("%s" , &Estado2);
+
   printf("Digite a populaçao:  ");
   scanf("%f\n" , &Populacao1);
 
