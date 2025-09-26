@@ -8,8 +8,8 @@ int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
  
 // Area  para determinar as variaveis
- char codigo1[30]= "A01";
- char codigo2[30]= "B02";
+ char codigo1[4]= "A01";
+ char codigo2[4]= "B02";
  char Estado1[30]= "SP";
  char Estado2[30]= "RJ";
  char nomeCidade1[30] ="Sãopaulo";
