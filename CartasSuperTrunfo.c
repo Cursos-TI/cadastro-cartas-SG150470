@@ -22,8 +22,16 @@ int main() {
  float PIB2 = 300.50;
  int pontoTuristico1= 50;
  int pontoTuristico2 = 30;
+ float DensidadePopulacional1;
+ float DensidadePopulacional2;
+ float PIBperCapita1;
+ float PIBperCapita2;
+ int divisao1;
+  int divisao2;
+  float rendapercapita1;
+  float rendapercapita2;
+ //Area para entrada de dados ******
 
- //Area para entrada de dados
  printf("Digite o codigo1 : ");
  scanf("%s" , &codigo1 );
 
@@ -35,7 +43,6 @@ int main() {
 
  printf("Digite o Estado2: ");
  scanf("%s", &Estado2);
- 
 
  printf("Digite o nome da Cidade1: ");
  scanf("%s", &nomeCidade1);
@@ -69,6 +76,36 @@ scanf("%d" , &pontoTuristico1 );
 printf("Digite o ponto Turistisco2:  ");
 scanf("%d", &pontoTuristico2);
 
+ // a divisao
+
+ divisao1 = (float)(populacao1 / Area1);
+ divisao2 = (populacao2 / Area2);
+ rendapercapita1 = (float)(PIB1 / populacao1);
+ rendapercapita2 = (float)(PIB2  / populacao2);
+
+
+printf("****Calcular a Densidade Populacional***\n ");
+
+printf("Digite a populacao1 :" );
+scanf("%f" , &populacao1);
+printf("Digite a Area1: ");
+scanf("%f", &Area1);
+
+printf("Digite a populacao2: ");
+scanf("%d" , &populacao2);
+printf("Digite PIB1: ");
+scanf("%f", &PIB1);
+
+printf("**** Calcular a Renda per Capita****\n");
+
+printf("Digite o PIB2: ");
+scanf("%f" , &PIB2);
+printf("Digite a populacao1: ");
+scanf("%d", &populacao1);
+
+
+
+// saida de dados*****
 
 printf("O codigo1 é: %s\n ", codigo1 );
 printf("O codigo2 é: %s\n", codigo2 );
@@ -84,8 +121,10 @@ printf("O PIB1 é: %f\n" , PIB1);
 printf("O PIB2 é: %f\n" ,PIB2);
 printf("O ponto Turistisco1 é : %d\n", pontoTuristico1);
 printf("O ponto Turistisco2 é : %d\n", pontoTuristico2);
-
-
+printf("A Densidade Populacional1 é: %f\n", DensidadePopulacional1 );
+printf("A Densida de Populacional2 é: %f\n ", DensidadePopulacional2);
+printf("A Renda per Capita1 é: %f\n", rendapercapita1);
+printf("A Renda per Capita2 é: %f\n", rendapercapita2);
 
 
 
